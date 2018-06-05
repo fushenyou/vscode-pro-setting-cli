@@ -1,0 +1,27 @@
+{
+    "name": "vscode-pro-setting-cli",
+    "version": "1.0.4",
+    "description": "",
+    "main": "index.js",
+    "bin": {
+        "vs-setting": "bin/vscodeProSettingCli.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "fusy",
+    "license": "ISC",
+    "engines": {
+        "node": ">=8"
+    },
+    "devDependencies": {
+        "eslint": "^4.19.1",
+        "eslint-plugin-react": "^7.9.1",
+        "babel-eslint": "^8.2.3"
+    },
+    "dependencies": {
+        "chalk": "^2.4.1",
+        "commander": "^2.15.1",
+        "semver": "^5.5.0"
+    }
+}
